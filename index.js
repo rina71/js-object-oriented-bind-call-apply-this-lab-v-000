@@ -1,3 +1,3 @@
 function justInvoke(arg){
-  this.thisValue = arg
+  this.thisValue = arg()
 }
